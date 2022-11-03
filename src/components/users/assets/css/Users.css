@@ -1,0 +1,84 @@
+.topbar {
+  height: 50px;
+}
+.btnrt {
+  float: right;
+}
+
+.shdw {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px #88888883;
+}
+.margin_r_10 {
+  margin-right: 10px;
+}
+.margin_t_3 {
+  margin-bottom: 3px;
+}
+
+table {
+  box-shadow: 5px 5px 5px #88888883;
+}
+.color-darblue {
+  background-color: #021b15 !important;
+}
+.flrrght {
+  float: right;
+}
+td:last-child {
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #006c5362;
+}
+thead {
+  color: white;
+  background-color: #021b15;
+}
+.bckgr {
+  background: #006c535e !important ;
+  border: 0px solid #021b15 !important ;
+}
+.imgAvatar {
+  vertical-align: middle;
+  border: solid 2px #28a745 !important;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  opacity: 1;
+}
+.cntrdiv {
+  text-align: center;
+}
+
+table,
+input[type="text"] {
+  direction: rtl;
+}
+.input_avatar {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 8px;
+  font-size: 17px;
+  color: #b8b8b8;
+}
+.button-wrap {
+  position: relative;
+}
+
+.grab {
+  margin-top: -120px;
+  cursor: pointer;
+}
+.mrgn_top_120 {
+  transition: 0.5s ease;
+  margin-top: -120px !important;
+}
+.mrgn_top_12:hover {
+  opacity: 0.3 !important;
+}
+.avatarbig:hover {
+  opacity: 0.3;
+}
