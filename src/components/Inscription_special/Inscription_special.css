@@ -1,0 +1,207 @@
+.big-container {
+  width: 31% !important;
+  background-color: aquamarine;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  padding: 24px;
+  background: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+}
+.top {
+  top: 0;
+  height: 50px;
+  background: #2f2e35;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
+}
+.h2_inscrip {
+  background: #00624a;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  box-shadow: 1px 0px 5px black;
+}
+.top h2 {
+  color: #fff;
+  text-align: center;
+  font: 300 30px/50px Helvetica, Verdana, sans-serif;
+}
+.big-container input[type="text"] {
+  text-align: center;
+}
+.big-container input[type="password"] {
+  text-align: center;
+}
+.big-container input[type="number"] {
+  text-align: center;
+}
+.alert_costum {
+  color: white;
+  background-color: #ff0000;
+  font-weight: bold;
+  /* padding: 2px; */
+  box-shadow: 0px 0px 5px #0000007a;
+}
+.mail_verif_succes {
+  font-size: 16px;
+  background-color: #00000008;
+  color: #28a745;
+}
+.textcntr_red {
+  margin-bottom: 10px;
+  margin-left: 58px !important;
+  color: #000 !important;
+  font-weight: bold !important;
+}
+.btn-agree {
+  /*background-color: green !important;*/
+  /*border: 1px solid black !important;*/
+  font-size: 28px !important;
+  color: white !important;
+}
+.MuiButton-textPrimary:hover {
+  box-shadow: 2px 2px 4px #009688 !important;
+  background-color: rgba(63, 81, 181, 0.04);
+}
+.MuiButton-textPrimary {
+  padding: 0 !important;
+  border-radius: 32px !important;
+}
+.span_costum {
+  color: #009688 !important;
+}
+.anim_backgrnd {
+  box-shadow: 0px 0px 5px #656363;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.MuiPaper-root {
+  border-radius: 17px !important;
+}
+.margin_right_7 {
+  margin-right: 7px;
+}
+.progress-bar {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 20, 1, 1) 0%,
+    rgba(6, 64, 3, 1) 35%,
+    rgba(0, 255, 55, 0.48503151260504207) 100%
+  ) !important;
+}
+
+.conpteur_progress {
+  font-weight: bold !important;
+  font-family: Geneva, sans-serif !important;
+  color: #12bd36 !important;
+  border: 1px solid !important;
+  /* width: fit-content; */
+  width: 81px !important;
+  padding: 0 !important;
+  margin-bottom: 5px !important;
+}
+.padding-top89px {
+  padding-top: 89px;
+}
+.btn-inscrip_succes {
+  background: #00624a;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 4px;
+}
+.btn-inscrip_danger {
+  background: red;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 4px;
+}
+.btn-inscrip_succes:hover {
+  background: #00624a;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+  border-radius: 4px;
+}
+.margin-right12px {
+  margin-right: 12px;
+}
+.backto_list_btn {
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  margin-top: 13px;
+  /* background: red; */
+  width: fit-content;
+  border: 1px solid #007bff;
+  border-radius: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.backto_list_btn:hover {
+  color: white !important;
+  border: none;
+  background: #007bff;
+  box-shadow: 0px 0px 5px black;
+}
+.a_back_tolist {
+  text-decoration: none;
+}
+.a_back_tolist:hover {
+  color: white !important;
+}
+.p_mail_verif_succes {
+  background: #00624a24;
+  font-size: 18px;
+  /* margin-top: 3px; */
+  color: black;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 3px;
+}

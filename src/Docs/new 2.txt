@@ -1,0 +1,36 @@
+ps_cartabandonment_*
+ps_cronjobs
+ps_discount_category
+ps_discount_lang
+ps_ebay_*
+ps_editorial
+ps_editorial_lang
+ps_elegantalautopostpinterest
+ps_elegantalautopostpinterest_posts
+ps_elegantalautopostpinterest_shop
+ps_elegantalautopostpinterest_socials
+ps_etransactions_card
+ps_etransactions_cart_locker 
+ps_etransactions_order
+ps_etransactions_recurring
+ps_exported_order
+ps_favorite_product////////////////////////////////////// not activated
+ps_ganalytics //////////////////////////////////////////done
+ps_gsr_review_report  /////////////////////////////////folder exist but module not instaled
+ps_loyalty_*
+ps_mailalert_customer_oos   //////////mailer notifications alert !not done
+ps_minic_*
+ps_payment*
+ps_pm_advancedsearch* /////////////////// not done payment require
+ps_paypal* //////////////////////////////done! without config
+ps_pm_advancedtopmenu* /////////////////// not done payment require
+ps_pm_advanced_bg*     /////////////////// not done payment require
+ps_pm_terms_invoice
+
+ps_product_comment*   /////////////////// NOT ACTIVE
+ps_scene*
+ps_social* /////////// not done payment require
+ps_totsplashscreen* /////////////////// NOT ACTIVE
+ps_wishlist*
+
+ps_footercustom_*
